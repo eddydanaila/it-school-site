@@ -1,0 +1,128 @@
+.about-page {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.about-page * {
+  box-sizing: border-box;
+}
+
+.about-page .header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.about-page .header-content {
+  width: 100%;
+  max-width: 1200px;
+  padding: var(--spacing-medium);
+}
+
+.about-page .nav-links {
+  gap: 0;
+}
+
+.about-page .nav-links a {
+  font-size: 0.75rem;
+  padding: var(--spacing-medium);
+}
+
+.welcome {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-content {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 3.5rem;
+}
+
+.trainers .container-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-medium) var(--spacing-small);
+}
+
+.trainers-container {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: var(--spacing-large);
+}
+
+.trainer-wrapper {
+  width: 25%;
+  min-width: 0;
+  padding: 0 var(--spacing-small);
+}
+
+.trainer {
+  width: 100%;
+  min-height: 350px;
+  padding: var(--spacing-small);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: calc(2 * var(--spacing-xl));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-wrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -70px;
+}
+
+.trainer img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.trainer h3 {
+  width: 100%;
+  font-size: var(--spacing-medium);
+  font-weight: 400;
+  text-align: center;
+  color: var(--third-color);
+  background-color: rgba(16, 29, 66, 0.9);
+  border-radius: 5px;
+  padding: var(--spacing-tinny) 0;
+  margin-bottom: var(--spacing-medium);
+  margin-top: -25px;
+  z-index: 1;
+}
+
+.trainer p {
+  color: #2b2922;
+}
+
+.footer {
+  background-color: #101d42;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer p {
+  font-size: 0.75rem;
+  text-align: center;
+  color: #eaeaea;
+  padding: var(--spacing-medium) 0;
+  margin: 0;
+}

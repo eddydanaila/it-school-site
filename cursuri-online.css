@@ -1,0 +1,140 @@
+.welcome-banner {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-banner-content {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Sectiunea de cursuri */
+.courses-page .container-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-small);
+  text-align: center;
+}
+
+.courses-page h2 {
+  margin-top: 0;
+  margin-bottom: var(--spacing-xl);
+}
+
+.courses-page .subtitle {
+  color: #666;
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.6;
+}
+
+/* Grila de carduri */
+.courses-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-large);
+}
+
+/* Card individual */
+.courses-card {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Imaginea cursului */
+.courses-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Continutul cardului */
+.courses-info {
+  padding: var(--spacing-medium);
+  display: grid;
+  gap: var(--spacing-small);
+  text-align: left;
+}
+
+.courses-info h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  columns: #111;
+}
+
+/* Linia de certificare Microsoft */
+.certification {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.microsoft-logo {
+  height: 17px;
+  width: auto;
+}
+
+/* Badge-uri (data, luni, ore) */
+.courses-badges {
+  display: flex;
+  gap: var(--spacing-medium);
+  flex-wrap: nowrap;
+  font-size: 0.875rem;
+  color: #555;
+  margin-top: var(--spacing-small);
+}
+
+.courses-badges .date {
+  padding: 0;
+}
+
+.courses-badges > span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.875rem;
+}
+
+.courses-badges .material-symbols-outlined {
+  font-size: 16px;
+}
+
+/* Buton Detalii */
+.btn-detalii {
+  display: inline-block;
+  background-color: #2bb686;
+  color: var(--secondary-color);
+  padding: 10px 24px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  justify-self: start;
+}
+
+.btn-detalii:hover {
+  background-color: var(--primary-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: var(--spacing-medium);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+}
